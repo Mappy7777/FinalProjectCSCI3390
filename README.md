@@ -16,5 +16,6 @@ Our initial approach was to use a non vertex-centric algorithm to find the maxim
 
 ## Advantages 
 Our algorithm runs appears to run in constant rounds which is extremely good. We are unable to prove this though as this is happening on accident. The Israeli-Itai algorithm is supposed to run in O(logn) rounds which is already good, but our algorithm finished in 1 round for all of the datasets. Since it runs in only one rounds it is unlikley that it achieves a 1/2-approximation ratio. The Israeli-Itai algorithm achieves this, but it runs in O(logn) rounds. If we were to guess it probably produces a O(1/logn)x(1/2) approximation ratio. But, it was impossible for us to prove this as our algorithm runs in 1 round by accident.
-references:Israeli, A. Itai, "A Fast and Simple Randomized Parallel Algorithm for Maximal Matching"
+# References:
+Israeli, A. Itai, "A Fast and Simple Randomized Parallel Algorithm for Maximal Matching"
 
